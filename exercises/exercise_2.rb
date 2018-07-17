@@ -9,8 +9,8 @@ puts "----------"
 @store2 = Store.find_by(id: 2)
 
 @store1.name = "New Name"
+@store1.save
 
-puts Store.where(id: 1)
 
 
 
